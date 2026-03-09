@@ -19,8 +19,6 @@ int main()
         }
     }
 
-    /* Finding Saddle Point */
-
     for(i=0;i<m;i++)
     {
         min=a[i][0];
@@ -55,10 +53,6 @@ int main()
 
     if(saddle==0)
     printf("No saddle point exists\n");
-
-
-    /* Finding Second Largest */
-
     largest=a[0][0];
     second=a[0][0];
 
